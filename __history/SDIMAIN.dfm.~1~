@@ -2,8 +2,8 @@ object SDIAppForm: TSDIAppForm
   Left = 197
   Top = 111
   Caption = 'SDI Application'
-  ClientHeight = 490
-  ClientWidth = 878
+  ClientHeight = 197
+  ClientWidth = 352
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,17 +14,10 @@ object SDIAppForm: TSDIAppForm
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 16
-  object Label1: TLabel
-    Left = 527
-    Top = 144
-    Width = 169
-    Height = 16
-    Caption = 'This is the master branch.'
-  end
   object StatusBar: TStatusBar
     Left = 0
-    Top = 471
-    Width = 878
+    Top = 178
+    Width = 352
     Height = 19
     Margins.Left = 2
     Margins.Top = 2
@@ -33,13 +26,11 @@ object SDIAppForm: TSDIAppForm
     AutoHint = True
     Panels = <>
     SimplePanel = True
-    ExplicitTop = 178
-    ExplicitWidth = 352
   end
   object ToolBar1: TToolBar
     Left = 0
     Top = 0
-    Width = 878
+    Width = 352
     Height = 30
     BorderWidth = 1
     Color = clBtnFace
@@ -50,7 +41,6 @@ object SDIAppForm: TSDIAppForm
     ShowHint = True
     TabOrder = 1
     Wrapable = False
-    ExplicitWidth = 352
     object ToolButton9: TToolButton
       Left = 5
       Top = 0
@@ -89,14 +79,6 @@ object SDIAppForm: TSDIAppForm
       Top = 0
       Action = EditPaste1
     end
-  end
-  object Button1: TButton
-    Left = 320
-    Top = 176
-    Width = 201
-    Height = 73
-    Caption = 'Master'
-    TabOrder = 2
   end
   object MainMenu1: TMainMenu
     Images = ImageList1
@@ -219,7 +201,7 @@ object SDIAppForm: TSDIAppForm
     Left = 72
     Top = 152
     Bitmap = {
-      494C01010F001300100010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010F0013000C0010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000004000000001002000000000000040
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
