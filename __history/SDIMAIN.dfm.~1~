@@ -2,8 +2,8 @@ object SDIAppForm: TSDIAppForm
   Left = 197
   Top = 111
   Caption = 'SDI Application'
-  ClientHeight = 495
-  ClientWidth = 784
+  ClientHeight = 197
+  ClientWidth = 352
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,17 +14,10 @@ object SDIAppForm: TSDIAppForm
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 16
-  object Label1: TLabel
-    Left = 304
-    Top = 144
-    Width = 44
-    Height = 16
-    Caption = 'Label1'
-  end
   object StatusBar: TStatusBar
     Left = 0
-    Top = 476
-    Width = 784
+    Top = 178
+    Width = 352
     Height = 19
     Margins.Left = 2
     Margins.Top = 2
@@ -33,13 +26,11 @@ object SDIAppForm: TSDIAppForm
     AutoHint = True
     Panels = <>
     SimplePanel = True
-    ExplicitTop = 178
-    ExplicitWidth = 352
   end
   object ToolBar1: TToolBar
     Left = 0
     Top = 0
-    Width = 784
+    Width = 352
     Height = 30
     BorderWidth = 1
     Color = clBtnFace
@@ -50,7 +41,6 @@ object SDIAppForm: TSDIAppForm
     ShowHint = True
     TabOrder = 1
     Wrapable = False
-    ExplicitWidth = 352
     object ToolButton9: TToolButton
       Left = 5
       Top = 0
@@ -89,22 +79,6 @@ object SDIAppForm: TSDIAppForm
       Top = 0
       Action = EditPaste1
     end
-  end
-  object RadioButton1: TRadioButton
-    Left = 440
-    Top = 48
-    Width = 113
-    Height = 17
-    Caption = 'RadioButton1'
-    TabOrder = 2
-  end
-  object CheckBox1: TCheckBox
-    Left = 400
-    Top = 144
-    Width = 17
-    Height = 9
-    Caption = 'CheckBox1'
-    TabOrder = 3
   end
   object MainMenu1: TMainMenu
     Images = ImageList1
@@ -227,7 +201,7 @@ object SDIAppForm: TSDIAppForm
     Left = 72
     Top = 152
     Bitmap = {
-      494C01010F001300100010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010F0013000C0010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000004000000001002000000000000040
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -771,9 +745,5 @@ object SDIAppForm: TSDIAppForm
     Filter = 'All Files (*.*)|*.*'
     Left = 136
     Top = 152
-  end
-  object MainMenu2: TMainMenu
-    Left = 440
-    Top = 240
   end
 end
